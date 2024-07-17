@@ -16,19 +16,15 @@ This repository consist of my frequently used dotfiles, managed using [GNU stow]
 
 ## Getting Started
 
-1. Clone this repository at your home directory.
+1. Clone this repository recursively at your home directory.
 
     ```bash
-    git clone git@github.com:kiritowu/dotfiles.git
+    cd ~
+    git clone --recurse-submodules git@github.com:kiritowu/dotfiles.git
+    cd ~/dotfiles
     ```
 
-2. Change directory to `dotfiles`.
-
-    ```bash
-    cd dotfiles
-    ```
-
-3. Run stow.
+2. Run stow.
 
     ```bash
     stow .
