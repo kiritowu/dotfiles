@@ -1,0 +1,20 @@
+[alias]
+    a = add
+    b = branch
+    cl = clone
+    cm = commit
+    co = checkout
+    f = fetch
+    fp = fetch -p
+    p = pull
+    pu = push
+    s = status
+    lg = log
+    lol = log --all --graph --oneline --decorate
+    m = merge
+    rs = restore
+[init]
+    defaultBranch = main
+[user]
+    email = wongzhaowu@gmail.com
+    name = kiritowu
