@@ -84,6 +84,7 @@ plugins=(
   jsontools
   npm
   poetry
+  tmux
   web-search
   zsh-autosuggestions
   zsh-interactive-cd
