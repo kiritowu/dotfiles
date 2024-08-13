@@ -20,8 +20,7 @@ This repository consist of my frequently used dotfiles, managed using [GNU stow]
 1. Clone this repository recursively at your home directory.
 
     ```bash
-    cd ~
-    git clone --recurse-submodules git@github.com:kiritowu/dotfiles.git
+    git clone --recurse-submodules git@github.com:kiritowu/dotfiles.git ~/dotfiles && \
     cd ~/dotfiles
     ```
 
