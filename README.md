@@ -6,6 +6,7 @@ This repository consist of my frequently used dotfiles, managed using [GNU stow]
 
 1. Git
 2. Stow
+   
     Install stow based on your OS's package manager:
 
     - Fedora
