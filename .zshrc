@@ -182,3 +182,4 @@ load-nvmrc
 export DENO_INSTALL="/home/kiritowu/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
