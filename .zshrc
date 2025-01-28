@@ -184,3 +184,15 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 
 fpath+=~/.zfunc; autoload -Uz compinit; compinit
 eval "$(uv generate-shell-completion zsh)"
+
+# Export environment variables from .env file
+unamestr=$(uname)
+if [ "$unamestr" = 'Linux' ]; then
+
+  export $(grep -v '^#' ~/.env | xargs -d '\n')
+
+elif [ "$unamestr" = 'FreeBSD' ] || [ "$unamestr" = 'Darwin' ]; then
+
+  export $(grep -v '^#' ~/.env | xargs -0)
+
+fi
