@@ -143,3 +143,6 @@ if [ -d "$FNM_PATH" ]; then
   export PATH="/Users/kiritowu/Library/Application Support/fnm:$PATH"
   eval "`fnm env`"
 fi
+
+# Export local bin dir
+export PATH="$PATH:~/.local/bin"
