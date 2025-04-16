@@ -136,3 +136,4 @@ elif [ "$unamestr" = 'FreeBSD' ] || [ "$unamestr" = 'Darwin' ]; then
   export $(grep -v '^#' ~/.env | xargs -0)
 
 fi
+
