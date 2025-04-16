@@ -137,3 +137,9 @@ elif [ "$unamestr" = 'FreeBSD' ] || [ "$unamestr" = 'Darwin' ]; then
 
 fi
 
+# fnm
+FNM_PATH="/Users/kiritowu/Library/Application Support/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/Users/kiritowu/Library/Application Support/fnm:$PATH"
+  eval "`fnm env`"
+fi
