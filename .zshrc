@@ -146,3 +146,6 @@ fi
 
 # Export local bin dir
 export PATH="$PATH:~/.local/bin"
+
+# uv shell completion
+eval "$(uv generate-shell-completion zsh)"
